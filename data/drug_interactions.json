@@ -1,0 +1,101 @@
+[
+  {
+    "interaction_id": "INT-001",
+    "drug_a": "Warfarin",
+    "drug_b": "Amiodarone",
+    "severity": "Critical",
+    "mechanism_of_action": "Amiodarone is a potent inhibitor of cytochrome P450 CYP2C9 and CYP3A4, as well as P-glycoprotein. Because CYP2C9 is the primary enzyme metabolizing the more potent S-enantiomer of Warfarin, concurrent administration increases Warfarin serum levels by 100% to 200%, significantly prolonging prothrombin time and precipitating severe, life-threatening internal bleeding.",
+    "contraindicated_conditions_or_labs": "Baseline INR > 2.5, impaired renal clearance (eGFR < 45 mL/min/1.73m²), active GI bleed history, hepatic impairment.",
+    "recommended_alternative": "Direct Oral Anticoagulant (DOAC) such as Apixaban 2.5mg-5mg BID (if non-valvular AFib indication criteria met), or Dronedarone (if non-permanent AFib), OR initiate empirical 33% to 50% Warfarin dose reduction with INR monitoring every 48-72 hours until stable.",
+    "monitoring_protocol": "Serial INR monitoring at 48 hours, 5 days, and weekly for 4 weeks post-initiation.",
+    "alert_suppression_criteria": "Never suppress when baseline INR > 2.5 or eGFR < 60."
+  },
+  {
+    "interaction_id": "INT-002",
+    "drug_a": "Atorvastatin",
+    "drug_b": "Azithromycin",
+    "severity": "Informational",
+    "mechanism_of_action": "Theoretical minor competitive hepatic uptake; however, Azithromycin is an azalide antibiotic that lacks significant cytochrome P450 CYP3A4 inhibitory activity unlike erythromycin or clarithromycin. The clinical likelihood of statin accumulation or rhabdomyolysis during a short 3-5 day oral course is negligible.",
+    "contraindicated_conditions_or_labs": "Severe acute hepatic necrosis (ALT/AST > 3x Upper Limit of Normal), pre-existing active rhabdomyolysis (CK > 1000 U/L).",
+    "recommended_alternative": "No medication switch required. Proceed with prescribed standard 5-day Azithromycin regimen.",
+    "monitoring_protocol": "Routine clinical observation. Advise patient to report any unexplained generalized muscle soreness.",
+    "alert_suppression_criteria": "SUPPRESS alert if baseline hepatic transaminases (ALT/AST) and renal function (eGFR) are within normal reference ranges, CK is normal, and antibiotic duration is <= 7 days."
+  },
+  {
+    "interaction_id": "INT-003",
+    "drug_a": "Atorvastatin",
+    "drug_b": "Clarithromycin",
+    "severity": "Critical",
+    "mechanism_of_action": "Clarithromycin is a strong, irreversible mechanism-based inhibitor of CYP3A4. Concomitant administration increases Atorvastatin plasma concentrations (AUC) by up to 4.5-fold, markedly elevating the risk of severe skeletal myopathy, acute rhabdomyolysis, and secondary acute tubular necrosis.",
+    "contraindicated_conditions_or_labs": "Any active statin therapy; pre-existing renal insufficiency.",
+    "recommended_alternative": "Switch antibiotic to Azithromycin (does not inhibit CYP3A4) or amoxicillin/clavulanate, OR temporarily withhold Atorvastatin therapy during the course of Clarithromycin.",
+    "monitoring_protocol": "Discontinue statin immediately; check baseline serum Creatine Kinase (CK) and renal panel if myalgias occur.",
+    "alert_suppression_criteria": "Do not suppress; true high-risk pharmacokinetic interaction."
+  },
+  {
+    "interaction_id": "INT-004",
+    "drug_a": "Spironolactone",
+    "drug_b": "Lisinopril",
+    "severity": "Critical",
+    "mechanism_of_action": "Spironolactone is a potassium-sparing aldosterone receptor antagonist and Lisinopril is an ACE inhibitor that reduces angiotensin II-mediated aldosterone secretion. Combined pharmacological blockade drastically curtails potassium excretion in the distal renal tubules, causing precipitous, life-threatening hyperkalemia (Serum K+ > 5.5 mEq/L) and fatal cardiac dysrhythmias.",
+    "contraindicated_conditions_or_labs": "Baseline Serum Potassium >= 5.0 mEq/L, eGFR < 45 mL/min/1.73m², acute renal impairment.",
+    "recommended_alternative": "Hydralazine + Isosorbide Dinitrate or Amlodipine for afterload reduction; or consider SGLT2 inhibitor (Dapagliflozin/Empagliflozin) for HFrEF guideline optimization.",
+    "monitoring_protocol": "Serum potassium and creatinine within 3 to 7 days, and monthly thereafter.",
+    "alert_suppression_criteria": "Never suppress if patient baseline Serum Potassium is elevated (> 5.0 mEq/L) or eGFR < 45 mL/min/1.73m²."
+  },
+  {
+    "interaction_id": "INT-005",
+    "drug_a": "Furosemide",
+    "drug_b": "Ibuprofen",
+    "severity": "Moderate",
+    "mechanism_of_action": "Ibuprofen and other non-steroidal anti-inflammatory drugs (NSAIDs) inhibit renal cyclooxygenase (COX-1/COX-2), depleting vasodilatory renal prostaglandins (PGE2 and PGI2). This blunts the natriuretic and diuretic efficacy of loop diuretics, induces renal vasoconstriction, promotes sodium and fluid retention, and can trigger acute decompensated heart failure.",
+    "contraindicated_conditions_or_labs": "Active Heart Failure (NYHA Class II-IV), CKD Stage 3-5 (eGFR < 60 mL/min/1.73m²), volume depletion.",
+    "recommended_alternative": "Acetaminophen (paracetamol) up to 1000 mg TID for analgesia/antipyresis; or topical NSAID (Diclofenac gel 1%) with negligible systemic absorption.",
+    "monitoring_protocol": "Daily weight tracking, blood pressure check, and serum creatinine/BUN within 5 days.",
+    "alert_suppression_criteria": "Suppress only if single PRN dose in a patient with completely normal ejection fraction and normal eGFR."
+  },
+  {
+    "interaction_id": "INT-006",
+    "drug_a": "Spironolactone",
+    "drug_b": "Ibuprofen",
+    "severity": "Critical",
+    "mechanism_of_action": "NSAID-induced inhibition of renal prostaglandin synthesis compromises glomerular filtration and blunts potassium secretion, while spironolactone inhibits mineralocorticoid-dependent potassium clearance. Concomitant use exponentially increases the incidence of severe hyperkalemia and acute oliguric renal failure.",
+    "contraindicated_conditions_or_labs": "Baseline Potassium > 4.8 mEq/L, eGFR < 50 mL/min/1.73m².",
+    "recommended_alternative": "Acetaminophen (500-1000mg PO PRN) or topical Voltaren gel for localized osteoarthritis.",
+    "monitoring_protocol": "Immediate discontinuation of NSAID; urgent basic metabolic panel (BMP) in 48 hours.",
+    "alert_suppression_criteria": "Never suppress in elderly or renal-compromised patients."
+  },
+  {
+    "interaction_id": "INT-007",
+    "drug_a": "Sertraline",
+    "drug_b": "Tramadol",
+    "severity": "Critical",
+    "mechanism_of_action": "Sertraline selectively inhibits serotonin reuptake (SSRI), while Tramadol possesses weak mu-opioid agonism combined with dual serotonin and norepinephrine reuptake inhibition. Combining these agents increases synaptic 5-HT concentrations in the central nervous system, risking Serotonin Syndrome (autonomic instability, hyperthermia, clonus, delirium) and lowering the seizure threshold.",
+    "contraindicated_conditions_or_labs": "Concurrent high-dose serotonergic therapy, history of seizure disorders, severe hepatic impairment.",
+    "recommended_alternative": "Acetaminophen, topical lidocaine 5% patch, or low-dose short-acting non-serotonergic opioid (e.g. oxycodone at conservative dosage with close monitoring) if opioid analgesia is strictly indicated.",
+    "monitoring_protocol": "Educate patient on warning symptoms (agitation, tremor, shivering, diaphoresis); immediate ER evaluation if symptoms appear.",
+    "alert_suppression_criteria": "Never suppress due to idiosyncratic, life-threatening neurotoxicity."
+  },
+  {
+    "interaction_id": "INT-008",
+    "drug_a": "Warfarin",
+    "drug_b": "Ciprofloxacin",
+    "severity": "Critical",
+    "mechanism_of_action": "Ciprofloxacin inhibits hepatic CYP1A2 and CYP3A4 metabolism and eradicates gut flora synthesizing Vitamin K, leading to a synergistic increase in INR and severe hemorrhage risk.",
+    "contraindicated_conditions_or_labs": "INR > 2.5, renal impairment.",
+    "recommended_alternative": "Alternative antibiotic guided by culture/susceptibility (e.g., Cephalexin, Nitrofurantoin for uncomplicated UTI).",
+    "monitoring_protocol": "INR check at day 3 of antibiotic therapy.",
+    "alert_suppression_criteria": "Do not suppress."
+  },
+  {
+    "interaction_id": "INT-009",
+    "drug_a": "Metoprolol Tartrate",
+    "drug_b": "Amiodarone",
+    "severity": "Moderate",
+    "mechanism_of_action": "Additive negative chronotropic and inotropic effects on the sinoatrial and atrioventricular nodes, increasing risk of symptomatic severe bradycardia, AV block, and sinus arrest.",
+    "contraindicated_conditions_or_labs": "Baseline resting heart rate < 55 bpm, PR interval > 200 ms, second- or third-degree AV block.",
+    "recommended_alternative": "Dose reduction of beta-blocker by 50% upon Amiodarone initiation with continuous telemetry/pulse monitoring.",
+    "monitoring_protocol": "Baseline ECG, daily resting heart rate monitoring.",
+    "alert_suppression_criteria": "Suppress if resting heart rate > 80 bpm with active tachyarrhythmia and telemetry monitoring."
+  }
+]

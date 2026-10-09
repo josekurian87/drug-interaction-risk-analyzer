@@ -1,0 +1,325 @@
+[
+  {
+    "patient_id": "PAT-1001",
+    "name": "Eleanor Vance",
+    "age": 72,
+    "gender": "Female",
+    "mrn": "MRN-884120",
+    "conditions": [
+      "Atrial Fibrillation (Non-valvular)",
+      "Stage 3b Chronic Kidney Disease",
+      "Essential Hypertension"
+    ],
+    "current_medications": [
+      {
+        "name": "Warfarin",
+        "dosage": "5 mg",
+        "route": "Oral",
+        "frequency": "Once daily at bedtime",
+        "indication": "Stroke prevention in Atrial Fibrillation"
+      },
+      {
+        "name": "Metoprolol Tartrate",
+        "dosage": "25 mg",
+        "route": "Oral",
+        "frequency": "Twice daily",
+        "indication": "Rate control"
+      },
+      {
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "indication": "Hypertension"
+      }
+    ],
+    "recent_labs": {
+      "inr": {
+        "value": 3.2,
+        "unit": "ratio",
+        "reference_range": "2.0 - 3.0",
+        "status": "High",
+        "interpretation": "Elevated above therapeutic target for AFib (supratherapeutic anticoagulation)"
+      },
+      "egfr": {
+        "value": 34,
+        "unit": "mL/min/1.73m²",
+        "reference_range": "> 60",
+        "status": "Critical Low",
+        "interpretation": "Stage 3b Moderate-to-Severe Chronic Kidney Disease with impaired renal clearance"
+      },
+      "serum_creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL",
+        "reference_range": "0.6 - 1.1",
+        "status": "High",
+        "interpretation": "Elevated baseline creatinine consistent with chronic renal insufficiency"
+      },
+      "potassium": {
+        "value": 4.8,
+        "unit": "mEq/L",
+        "reference_range": "3.5 - 5.0",
+        "status": "Normal",
+        "interpretation": "Upper normal limit"
+      },
+      "alt": {
+        "value": 28,
+        "unit": "U/L",
+        "reference_range": "7 - 35",
+        "status": "Normal",
+        "interpretation": "Normal hepatocellular enzyme level"
+      },
+      "ast": {
+        "value": 24,
+        "unit": "U/L",
+        "reference_range": "8 - 33",
+        "status": "Normal",
+        "interpretation": "Normal transaminase level"
+      }
+    },
+    "allergies": ["Penicillins (rash)"],
+    "notes": "Elderly patient on anticoagulation therapy with borderline renal clearance and labile INR."
+  },
+  {
+    "patient_id": "PAT-1002",
+    "name": "Marcus Chen",
+    "age": 45,
+    "gender": "Male",
+    "mrn": "MRN-339201",
+    "conditions": [
+      "Primary Hyperlipidemia",
+      "Mild Exercise-Induced Asthma"
+    ],
+    "current_medications": [
+      {
+        "name": "Atorvastatin",
+        "dosage": "20 mg",
+        "route": "Oral",
+        "frequency": "Once daily at bedtime",
+        "indication": "Hyperlipidemia / primary ASCVD prevention"
+      },
+      {
+        "name": "Albuterol HFA",
+        "dosage": "90 mcg",
+        "route": "Inhalation",
+        "frequency": "2 puffs PRN pre-exercise",
+        "indication": "Bronchospasm prophylaxis"
+      }
+    ],
+    "recent_labs": {
+      "inr": {
+        "value": 1.0,
+        "unit": "ratio",
+        "reference_range": "0.8 - 1.2",
+        "status": "Normal",
+        "interpretation": "Standard coagulation index"
+      },
+      "egfr": {
+        "value": 95,
+        "unit": "mL/min/1.73m²",
+        "reference_range": "> 60",
+        "status": "Normal",
+        "interpretation": "Robust glomerular filtration rate"
+      },
+      "serum_creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL",
+        "reference_range": "0.7 - 1.3",
+        "status": "Normal",
+        "interpretation": "Normal renal function"
+      },
+      "potassium": {
+        "value": 4.2,
+        "unit": "mEq/L",
+        "reference_range": "3.5 - 5.0",
+        "status": "Normal",
+        "interpretation": "Eunatremic/eukalemic"
+      },
+      "alt": {
+        "value": 22,
+        "unit": "U/L",
+        "reference_range": "7 - 55",
+        "status": "Normal",
+        "interpretation": "Normal liver transaminase"
+      },
+      "ast": {
+        "value": 19,
+        "unit": "U/L",
+        "reference_range": "8 - 48",
+        "status": "Normal",
+        "interpretation": "Normal liver transaminase"
+      },
+      "creatine_kinase": {
+        "value": 85,
+        "unit": "U/L",
+        "reference_range": "30 - 200",
+        "status": "Normal",
+        "interpretation": "No skeletal muscle breakdown or myositis"
+      }
+    },
+    "allergies": ["No known drug allergies (NKDA)"],
+    "notes": "Young active patient on standard statin therapy with optimal hepatic and renal parameters."
+  },
+  {
+    "patient_id": "PAT-1003",
+    "name": "Arthur Pendelton",
+    "age": 81,
+    "gender": "Male",
+    "mrn": "MRN-774902",
+    "conditions": [
+      "Type 2 Diabetes Mellitus",
+      "Heart Failure with Reduced Ejection Fraction (HFrEF, EF 35%)",
+      "Stage 3a Chronic Kidney Disease",
+      "Severe Osteoarthritis of bilateral knees"
+    ],
+    "current_medications": [
+      {
+        "name": "Furosemide",
+        "dosage": "40 mg",
+        "route": "Oral",
+        "frequency": "Once daily in morning",
+        "indication": "Volume overload / Heart failure diuresis"
+      },
+      {
+        "name": "Spironolactone",
+        "dosage": "25 mg",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "indication": "Aldosterone antagonist / HFrEF guideline-directed medical therapy"
+      },
+      {
+        "name": "Metformin",
+        "dosage": "500 mg",
+        "route": "Oral",
+        "frequency": "Twice daily with meals",
+        "indication": "Glycemic control"
+      },
+      {
+        "name": "Glipizide",
+        "dosage": "5 mg",
+        "route": "Oral",
+        "frequency": "Once daily before breakfast",
+        "indication": "Type 2 Diabetes"
+      }
+    ],
+    "recent_labs": {
+      "inr": {
+        "value": 1.1,
+        "unit": "ratio",
+        "reference_range": "0.8 - 1.2",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "egfr": {
+        "value": 38,
+        "unit": "mL/min/1.73m²",
+        "reference_range": "> 60",
+        "status": "Low",
+        "interpretation": "Moderate chronic kidney dysfunction"
+      },
+      "serum_creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL",
+        "reference_range": "0.7 - 1.3",
+        "status": "High",
+        "interpretation": "Elevated baseline creatinine"
+      },
+      "potassium": {
+        "value": 5.2,
+        "unit": "mEq/L",
+        "reference_range": "3.5 - 5.0",
+        "status": "High",
+        "interpretation": "Borderline hyperkalemia; vulnerable to RAAS blockade shifts"
+      },
+      "alt": {
+        "value": 31,
+        "unit": "U/L",
+        "reference_range": "7 - 55",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "ast": {
+        "value": 29,
+        "unit": "U/L",
+        "reference_range": "8 - 48",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "hba1c": {
+        "value": 7.4,
+        "unit": "%",
+        "reference_range": "< 5.7",
+        "status": "High",
+        "interpretation": "Acceptable geriatric diabetes control"
+      }
+    },
+    "allergies": ["Sulfa antibiotics (hives)"],
+    "notes": "Elderly multi-morbidity polypharmacy patient. High baseline potassium on aldosterone receptor antagonist."
+  },
+  {
+    "patient_id": "PAT-1004",
+    "name": "Sophia Martinez",
+    "age": 29,
+    "gender": "Female",
+    "mrn": "MRN-194883",
+    "conditions": [
+      "Major Depressive Disorder (Moderate)",
+      "Migraine with Aura"
+    ],
+    "current_medications": [
+      {
+        "name": "Sertraline",
+        "dosage": "50 mg",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "indication": "Depression / Anxiety"
+      }
+    ],
+    "recent_labs": {
+      "inr": {
+        "value": 1.0,
+        "unit": "ratio",
+        "reference_range": "0.8 - 1.2",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "egfr": {
+        "value": 115,
+        "unit": "mL/min/1.73m²",
+        "reference_range": "> 60",
+        "status": "Normal",
+        "interpretation": "Healthy renal function"
+      },
+      "serum_creatinine": {
+        "value": 0.8,
+        "unit": "mg/dL",
+        "reference_range": "0.5 - 1.0",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "potassium": {
+        "value": 4.1,
+        "unit": "mEq/L",
+        "reference_range": "3.5 - 5.0",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "alt": {
+        "value": 18,
+        "unit": "U/L",
+        "reference_range": "7 - 35",
+        "status": "Normal",
+        "interpretation": "Normal"
+      },
+      "ast": {
+        "value": 16,
+        "unit": "U/L",
+        "reference_range": "8 - 33",
+        "status": "Normal",
+        "interpretation": "Normal"
+      }
+    },
+    "allergies": ["No known drug allergies (NKDA)"],
+    "notes": "Young patient managed on SSRI therapy; acute headache episodes."
+  }
+]
